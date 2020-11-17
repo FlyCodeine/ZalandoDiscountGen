@@ -1,4 +1,5 @@
 Settings = {
-    "catchall": "hovlin.email",
+    "catchall": "",
+    "country": "",
     "ammount": 10
 }
