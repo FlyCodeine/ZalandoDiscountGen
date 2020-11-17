@@ -10,7 +10,7 @@ def discount():
     options = Options()
     options.headless = True
     driver = webdriver.Chrome("chromedriver.exe", options=options)
-    driver.get("https://www.zalando."s['country]"/zalando-newsletter/")
+    driver.get("https://www.zalando."+s['country]+"/zalando-newsletter/")
     time.sleep(1.5)
     driver.find_element_by_id("uc-btn-accept-banner").click()
     time.sleep(1)
